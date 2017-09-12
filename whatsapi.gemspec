@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["trevor@sprout.co.ke"]
   spec.summary       = %q{Ruby API to connect to WhatsApp}
   spec.description   = %q{Ruby API to connect to WhatsApp}
-  spec.homepage      = "https://github.com/sproutke/whatsapi"
+  spec.homepage      = "https://github.com/pzupan/whatsapi"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.required_ruby_version = "~> 2.2.3"
+  spec.required_ruby_version = "~> 2.4.0"
   spec.add_dependency 'activesupport'
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
